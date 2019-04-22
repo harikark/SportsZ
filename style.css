@@ -1,0 +1,127 @@
+nav ul a,
+nav .brand-logo {
+font-family: 'Roboto Condensed', sans-serif;
+  color: yellow;
+}
+
+p {
+  line-height: 2rem;
+}
+body{
+ font-family: 'Roboto Condensed', sans-serif;
+}
+head{
+  background-color: black;
+}
+.carousel-inner{
+  width:100%;
+  max-height: 370px !important;
+}
+.carousel-caption{
+  color:yellow;
+  
+}
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.src{
+  max-height: 370px
+
+}
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: yellow;
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+.img-fluid{
+  width: 50%;
+  height: 50%;
+  position: center;
+
+}
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+.black{
+  font-color: yellow;
+}
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+.col-l3-s12{
+  background-color: black;
+  color: yellow;
+}
+
+center{
+  position: center;
+}
+.header-center-teal-text-text-lighten-2{
+  font-family: 'Rock Salt', cursive;
+   position: center;
+
+}
+nav{
+  background-color: black
+  color:yellow;
+}
+h1{
+  font-family: 'Rock Salt', cursive;
+   text-align: center;
+   height:100px;
+}
+
+h3{
+  font-family: 'Indie Flower', cursive;
+}
+h2,h5{
+  font-family: 'Rock Salt', cursive;
+   text-align: : center;
+}
+h4{
+  font-family: 'Shadows Into Light Two', cursive;
+   position: center;
+}
+h6{
+  font-family: 'Shadows Into Light Two', cursive;
+   position: center;
+}
+
+portfolio-caption{
+  position: center; 
+  height: 350
+}
+
+.page-footer{
+background-color: black
+}
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+.text{
+  font-size: 40; 
+}
