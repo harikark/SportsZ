@@ -81,10 +81,10 @@ nav{
   background-color: black
   color:yellow;
 }
-h1{
+.logo{
   font-family: 'Rock Salt', cursive;
    text-align: center;
-   height:100px;
+   height:90px;
 }
 
 h3{
