@@ -107,6 +107,9 @@ portfolio-caption{
   position: center; 
   height: 350
 }
+button.navbar-toggler {
+background:yellow !important; /* !important is just to override other styles, if any. */
+}
 
 .page-footer{
 background-color: black
