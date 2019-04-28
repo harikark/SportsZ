@@ -1,21 +1,23 @@
 nav ul a,
 nav .brand-logo {
-font-family: 'Roboto Condensed', sans-serif;
-  color: yellow;
+font-family: 'Stint Ultra Condensed', cursive;
+font-size: 25px;
+color: #00CC00;
 }
 
 p {
   line-height: 2rem;
 }
 body{
- font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Pangolin', cursive;
+ font-size:20px;
 }
 head{
   background-color: black;
 }
 .carousel-inner{
   width:100%;
-  max-height: 370px !important;
+  max-height: 390px !important;
 }
 .carousel-caption{
   color:yellow;
@@ -73,7 +75,7 @@ center{
   position: center;
 }
 .header-center-teal-text-text-lighten-2{
-  font-family: 'Rock Salt', cursive;
+  font-family: 'Fredericka the Great', cursive;
    position: center;
 
 }
@@ -82,7 +84,8 @@ nav{
   color:yellow;
 }
 .logo{
-  font-family: 'Rock Salt', cursive;
+ font-family: 'Fredericka the Great', cursive;
+   position: center;
    text-align: center;
    height:90px;
 }
@@ -90,17 +93,14 @@ nav{
 h3{
   font-family: 'Indie Flower', cursive;
 }
-h2,h5{
-  font-family: 'Rock Salt', cursive;
+h1{
+  font-family: 'Fredericka the Great', cursive;
+  text-align: : center;
+}
+h2,h5,h4,h6{
+   font-family: 'Stint Ultra Condensed', cursive;
+   font-size: 30px;
    text-align: : center;
-}
-h4{
-  font-family: 'Shadows Into Light Two', cursive;
-   position: center;
-}
-h6{
-  font-family: 'Shadows Into Light Two', cursive;
-   position: center;
 }
 
 portfolio-caption{
