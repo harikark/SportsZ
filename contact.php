@@ -74,36 +74,98 @@
     </form> -->
   </div>
 </nav>
+<br>
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 style="text-align: center; color: green">CONTACT US</h5>
+           <p>Are your players ready to take the next step in their individual development?
 
-<iframe src="https://calendar.google.com/calendar/embed?src=sensiblesoccer2%40gmail.com&ctz=America%2FNew_York" claas="calendar" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+Discover more about our programs and send us any questions you may have! Coach Williams or one of our staff will get back to you as soon as possible. Thank you for your interest in our programs!</p>
 
-<footer class="page-footer">
-      <div class="container" style="text-align:left">
-    <li>
-        <a href="#about">About Us</a>
-      </li>
-       <li>
-        <a href="#about">FAQ's</a>
-      </li>
-      <li>
-        <a href="programs.html">Programs</a>
-      </li>
-      <li >
-        <a href="#social">Social</a>
-      </li>
-          <li>
-        <a href="calendar.html">Calendar</a>
-      </li>
-      <li>
-        <a href="contact.html">Contact Us</a>
-      </li>
-  </div>
-      <div class="container" style="text-align:right; color:yellow">Soccer Sense programs are hosted at Sports City: <br>
+     
+<!-- 
+  <nav class="black" role="navigation">
+    <div class="nav-default container">
+      <ul class="navbar-nav text-uppercase ml-auto">
+        <li class="nav-item">
+            <a class="nav-link-js-scroll-trigger" href="index.html">Home</a>
+          </li>
+            <a class="nav-link-js-scroll-trigger" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+ -->
+
+          <form id="contactForm" action=”post.php” method=”post” name="sentMessage" novalidate="novalidate">
+            <div class="row">
+            <div class="container">
+           <div class="form-group">
+            <label>Name:</label>
+            <input type="text" name="name" class="form-control" required>
+            </div>
+             <div class="form-group">
+            <label>Email:</label>
+            <input type="email" name="email" class="form-control" required>
+            </div>
+            <div class="form-group">
+            <label>Message:</label>
+            <textarea class="form-control" name="message" required></textarea>
+           </div>
+             <div class="form-group">
+            <button class="btn btn-success" type="submit">Submit</button>
+            </div>
+       </form>
+   </div><!-- 
+                <div class="form-group">
+                  <input class="form-control" id="name" type="text" placeholder="Your Name *" required="required" data-validation-required-message="Please enter your name.">
+                  <p class="help-block text-danger"></p>
+                </div>
+                <br>
+                <div class="form-group">
+                  <input class="form-control" id="email" type="email" placeholder="Your Email *" required="required" data-validation-required-message="Please enter your email address.">
+                  <p class="help-block text-danger"></p>
+                </div>
+                 <br>
+                <div class="form-group">
+                  <input class="form-control" id="phone" type="tel" placeholder="Your Phone *" required="required" data-validation-required-message="Please enter your phone number.">
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <br>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <textarea class="form-control" id="message" placeholder="Your Message *" required="required" data-validation-required-message="Please enter a message."></textarea>
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <br>
+              <div class="clearfix"></div>
+              <div class="col-lg-12 text-center">
+                <div id="success"></div>
+                <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit">Send Message</button>
+              </div>
+              </div>
+            </div>
+          </form> -->
+  
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+  <h4>Location:</h4> 
+
+    <p><br>Soccer Sense programs are hosted at Sports City: <br>
+
        Address: 269 Squankum Road (Rear of Property), Farmingdale, NJ 07727 <br>
-        Phone: 732-996-2271 <br>HKDesign/Bootstrap</a>
+        Phone: 732-996-2271</p>
+        </div>
+      </div>
 
     </div>
     </div>
-  </footer>
+    </div>
 
-</html>
+    </body>
+    </html>
