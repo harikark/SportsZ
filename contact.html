@@ -24,7 +24,7 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script src="form.js"></script>
+  
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -107,8 +107,8 @@ Discover more about our programs and send us any questions you may have! Coach W
       <div class="col-md-6 col-md-offset-3 col-sm-12 col-xs-12">
         <div class="panel panel-danger">
           <div class="panel-body">
-            <form id="reused_form">
-              <div class="form-group" action="MAILTO:sensiblesoccer2@yahoo.com" method="POST" enctype="text/plain">
+            <form id="reused_form" action="MAILTO:sensiblesoccer2@yahoo.com" method="POST" enctype="text/plain">
+              <div class="form-group">
                 <label><i class="fa fa-user" aria-hidden="true"></i> Name</label>
                 <input type="text" name="name" class="form-control" placeholder="Enter Name" required>
               </div>
@@ -121,9 +121,10 @@ Discover more about our programs and send us any questions you may have! Coach W
                 <textarea rows="3" name="message" class="form-control" placeholder="Type Your Message" required></textarea>
               </div>
               <div class="form-group">
-                <button class="btn btn-raised btn-block btn-success">Submit →</button>
+                <input type="submit" value="Submit" button class="btn btn-raised btn-block btn-success"</button>
               </div>
             </form>
+
             <div id="error_message" style="width:100%; height:100%; display:none; ">
             <h4>Error</h4>
             Sorry there was an error sending your form.
