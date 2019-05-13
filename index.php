@@ -53,7 +53,7 @@
         <a class="nav-link" href="calendar.html">Calendar</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="index.php">Contact</a>
+        <a class="nav-link" href="contact.html">Contact</a>
       </li>
      
       <li class="nav-item dropdown">
@@ -68,15 +68,54 @@
         </div>
       </li>
     </ul>
- <!--    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form> -->
+
   </div>
 </nav>
+<br>
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 style="text-align: center; color: green">CONTACT US</h5>
+           <p>Are your players ready to take the next step in their individual development?
 
-<iframe src="https://calendar.google.com/calendar/embed?src=sensiblesoccer2%40gmail.com&ctz=America%2FNew_York" claas="calendar" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+Discover more about our programs and send us any questions you may have! Coach Williams or one of our staff will get back to you as soon as possible. Thank you for your interest in our programs!</p>
 
+     
+    <form id="contactForm" action=”contactform.php” method=”POST” name="sentMessage" novalidate="novalidate">
+            <div class="row">
+            <div class="container">
+           <div class="form-group">
+            <label>Name:</label>
+            <input type="text" name="name" class="form-control" required>
+            </div>
+             <div class="form-group">
+            <label>Email:</label>
+            <input type="email" name="email" class="form-control" required>
+            </div>
+            <div class="form-group">
+            <label>Message:</label>
+            <textarea class="form-control" name="message" required></textarea>
+           </div>
+             <div class="form-group">
+            <button class="btn btn-success" type="submit">Submit</button>
+            </div>
+       </form>
+   </div>
+
+      </div>
+      </div>
+      </div>
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+  <h4>Location:</h4> 
+
+    <p><br>Soccer Sense programs are hosted at Sports City: <br>
+
+       Address: 269 Squankum Road (Rear of Property), Farmingdale, NJ 07727 <br>
+        Phone: 732-996-2271</p>
+        </div>
+      </div>
 <footer class="page-footer">
       <div class="container" style="text-align:left">
     <li>
@@ -105,5 +144,9 @@
     </div>
     </div>
   </footer>
+    </div>
+    </div>
+    </div>
 
-</html>
+    </body>
+    </html>
