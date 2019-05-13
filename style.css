@@ -74,9 +74,6 @@ head{
   color: yellow;
 }
 
-center{
-  position: center;
-}
 .header-center-teal-text-text-lighten-2{
   font-family: 'Fredericka the Great', cursive;
    position: center;
@@ -106,6 +103,7 @@ h2,h5,h4,h6{
    text-align: : center;
 }
 
+
 portfolio-caption{
   position: center; 
   height: 350
@@ -133,6 +131,10 @@ footer.page-footer {
 }
 
 
+figcaption{
+  font-family: 'Stint Ultra Condensed', cursive;
+  font-size:30px;
+}
 /* CSS Image Hover. Created refering to Naoya's Pen: https://codepen.io/nxworld/pen/ZYNOBZ */
 /*Sepia*/
 .column#sepia img {
@@ -271,11 +273,7 @@ footer.page-footer {
 }
 
 /*Form*/
-body {
-  padding-top: 40px;
-  padding-bottom: 40px;
-  background-color: #eee;
-}
+
  
 .form-contact {
   max-width: 330px;
