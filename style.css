@@ -90,6 +90,12 @@ nav{
    height:90px;
 }
 
+@media screen and (max-width:400px) {  
+  .hide-mobile img {
+    display: none;
+  }
+}
+
 h3{
   font-family: 'Indie Flower', cursive;
 }
