@@ -5,6 +5,9 @@ font-size: 25px;
 color: #00CC00;
 }
 
+.icon-bar{
+color:black;
+}
 p {
   line-height: 2rem;
 }
