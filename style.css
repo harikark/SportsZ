@@ -295,3 +295,33 @@ display: none !important;}
     display: none;
   }
 }
+
+#hide-mobile{
+    display: none;
+    text-align: center
+}
+
+@media screen and (min-width: 768px) {
+    #hide-mobile {
+        clear: both;
+        display: block;
+        float: left;
+        margin: 10px auto 5px 20px;
+        width: 28%;
+    }
+}
+
+.googleCalendar{
+  position: relative;
+  height: 0;
+  width: 50%;
+  padding-bottom: 50%;
+}
+
+.googleCalendar iframe{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
