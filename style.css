@@ -307,10 +307,21 @@ display: none !important;}
         display: block;
         float: left;
         margin: 10px auto 5px 20px;
-        width: 28%;
+        width: 70%;
     }
 }
 
+/*CALENDAR*/
+ @media (max-width: 550px) {
+     .big-container {
+         display: none;
+     }
+ }
+ @media (min-width: 550px) {
+     .small-container {
+         display: none;
+     }
+ }
 
 .responsive-iframe-container {
 position: relative;
@@ -329,6 +340,10 @@ left: 0;
 width: 100%;
 height: 100%;
 }
+
+
+
+
 
 
 /*table*/
