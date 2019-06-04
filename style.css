@@ -11,9 +11,14 @@ color:black;
 p {
   line-height: 2rem;
 }
+html {
+  overflow-x: hidden;
+}
+
 body{
 font-family: 'Pangolin', cursive;
  font-size:20px;
+ background-image:url(img/Sports.png);
 }
 head{
   background-color: black;
